@@ -1,0 +1,18 @@
+﻿body { 
+    background-image: url('http://hqbackground.com/wp-content/uploads/2014/10/background-no-repeat-27-cool-wallpaper-background-and-wallpaper.png');
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+#head{
+    background-color: #FFFFFF;
+    margin: auto;
+
+    height: 100px;
+    width: 100%;
+    min-height: 100px;
+    min-width: 800px;
+    background-attachment:fixed;
+    background-position: 0px -650px;
+    background-size: 110%;
+}
