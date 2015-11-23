@@ -16,3 +16,18 @@
     background-position: 0px -650px;
     background-size: 110%;
 }
+
+
+.button {
+    float: right;
+    margin-right: 20px;
+    padding: 10px;
+    color:#ad8068;
+    margin:20px;
+    font-family:Comic Sans MS;
+    font-size:30px;
+   
+}
+.button:hover{
+    color:#f5783d;
+}
