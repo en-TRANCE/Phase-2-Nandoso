@@ -1,0 +1,9 @@
+﻿body {
+}
+
+#position1{
+    position: relative;
+    float:left;
+    padding: 15px;
+    top:120px
+}

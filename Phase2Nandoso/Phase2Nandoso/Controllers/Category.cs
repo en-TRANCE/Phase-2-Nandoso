@@ -10,7 +10,6 @@ namespace Phase2Nandoso.Controllers
     {
         public int CategoryID { get; set; }
         public string CategoryName { get; set; }
-        public int MenuID { get; set; }
 
         [JsonIgnore]
         public virtual ICollection<Menu> Menu { get; set; }

@@ -11,7 +11,8 @@ namespace Phase2Nandoso.Controllers
         public int ID { get; set; }
         public string MenuName { get; set; }
         public string MenuDetail { get; set; }
-        public int MenuPrice { get; set; }
+        public string MenuPrice { get; set; }
+        public int CategoryID { get; set; }
 
         [JsonIgnore]
         public virtual Category Category { get; set; }

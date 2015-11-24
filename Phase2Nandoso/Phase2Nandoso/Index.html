@@ -1,7 +1,11 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="Content/pictureLayout.css" rel="stylesheet" />
     <link href="Content/style.css" rel="stylesheet" />
+    <script src="Scripts/jquery-2.1.4.min.js"></script>
+    <script src="Scripts/facebooklogin.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
     <title>Nandoso</title>
     <meta charset="utf-8" />
@@ -33,7 +37,17 @@
             Home
         </a>
 
+        <fb:login-button scope="public_profile,email" onlogin="checkLoginState();"></fb:login-button>
     </div>
+
+    <div id="position1">
+        <img src="http://s3-static-ak.buzzfed.com/static/2015-02/26/6/campaign_images/webdr05/37-very-important-questions-the-world-has-about-n-2-10530-1424949666-0_dblbig.jpg" />
+    </div>
+
+    <div id="footer">
+        Copyright © Nando’s 2015/2016
+    </div>
+
 
 
 </body>
