@@ -1,9 +1,24 @@
 ﻿body {
 }
 
-#position1{
+#topPosition{
     position: relative;
     float:left;
-    padding: 15px;
-    top:120px
+    margin-top: 110px
+}
+
+#bottomPosition{
+    position: relative;
+    float:left;
+    margin-top: 10px
+}
+
+.img {
+    opacity: 0.6;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+.img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
 }

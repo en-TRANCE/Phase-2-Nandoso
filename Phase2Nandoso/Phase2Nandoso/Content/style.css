@@ -13,7 +13,7 @@
     position: absolute;
 	left:0;
     right:0;
-    
+
 
 }
 
@@ -32,9 +32,11 @@
     float: right;
     padding: 10px;
     color:#ad8068;
-    margin:20px;
-    font-family:Comic Sans MS;
-    font-size:30px;
+    margin:15px;
+    font-family:'Tempus Sans ITC';
+    font-size:50px;
+    text-decoration: none;
+    margin-right: 40px;
    
 }
 .button:hover{
