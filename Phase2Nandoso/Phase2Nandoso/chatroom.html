@@ -21,6 +21,10 @@
             Contact us
         </a>
 
+        <a class="button" href="chatroom.html">
+            Chat room
+        </a>
+
         <a class="button" href="feedback.html">
             Feedback
         </a>
@@ -42,12 +46,35 @@
         </a>
     </div>
 
-    <div class="container">
-        <input type="text" id="message" />
-        <input type="button" id="sendmessage" value="Send" />
-        <input type="hidden" id="displayname" />
-         <ul id="discussion"></ul>
-    </div>
+    <script src="Scripts/jquery-2.1.4.min.js"></script>
+    <script src="Scripts/jquery.signalR-2.2.0.min.js"></script>
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>SignalR Simple Chat</title>
+        <style type="text/css">
+            .container {
+                background-color: rgba(255, 255, 255, 0.9);
+                border: #000000;
+                padding: 20px;
+                margin: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="adjustchat">
+
+            <p >
+
+            </p>
+
+            <div class="container">
+                <input type="text" id="message" />
+                <input type="button" id="sendmessage" value="Send" />
+                <input type="hidden" id="displayname" />
+                <ul id="discussion"></ul>
+            </div>
+        </div>
         <!--Script references. -->
         <!--Reference the jQuery library. -->
         <script src="Scripts/jquery-1.10.2.min.js"></script>
@@ -88,8 +115,6 @@
         <div id="footer">
             Copyright © Nando’s 2015/2016
         </div>
-
-
 
     </body>
 </html>
