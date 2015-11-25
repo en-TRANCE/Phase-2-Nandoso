@@ -15,25 +15,13 @@
     right:0;
 }
 
-#footer {
-    background-color: rgba(255, 255, 255, 0.9);
-    color:#ad8068;
-    clear:both;
-    text-align:center;
-    position: absolute;
-	bottom:0;
-	left:0;
-    right:0;
-}
-
-
 .button {
     float: right;
     padding: 10px;
     color:#ad8068;
     margin:15px;
     font-family:'Tempus Sans ITC';
-    font-size:40px;
+    font-size:20px;
     text-decoration: none;
     margin-right: 30px;
    
