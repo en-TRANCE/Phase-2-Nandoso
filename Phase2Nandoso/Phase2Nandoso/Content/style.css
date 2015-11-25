@@ -17,13 +17,13 @@
 
 .button {
     float: right;
-    padding: 10px;
+    padding: 20px;
     color:#ad8068;
     margin:15px;
     font-family:'Tempus Sans ITC';
-    font-size:20px;
+    font-size:25px;
     text-decoration: none;
-    margin-right: 30px;
+    margin-right: 2px;
    
 }
 .button:hover{
