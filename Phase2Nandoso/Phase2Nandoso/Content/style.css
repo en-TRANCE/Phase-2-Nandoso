@@ -10,9 +10,13 @@
     width: 100%;
     min-height: 100px;
     min-width: 800px;
-    position: absolute;
     left:0;
     right:0;
+}
+
+#facebook{
+    position:absolute;
+    top: 50px
 }
 
 .button {
