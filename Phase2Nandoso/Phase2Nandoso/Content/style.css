@@ -10,6 +10,9 @@
     width: 100%;
     min-height: 100px;
     min-width: 800px;
+    position: absolute;
+    left:0;
+    right:0;
 }
 
 #footer {
@@ -22,6 +25,7 @@
 	left:0;
     right:0;
 }
+
 
 .button {
     float: right;
@@ -44,6 +48,6 @@
 }
 
 .adjustchat{
-    padding: 180px;
+    padding: 100px;
 
 }
